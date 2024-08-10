@@ -1,0 +1,71 @@
+
+@import "@fontsource/dm-sans/400.css"; /* Regular weight */
+@import "@fontsource/dm-sans/500.css"; /* Medium weight */
+@import "@fontsource/dm-sans/700.css"; /* Bold weight */
+
+:root {
+  --bg-color: white;
+  --bg-color-crumb: #E27447;
+  --heading-color: black;
+  --heading-color1: #E27447;
+  --heading-color2: black;
+  --heading-color3: black;
+  --text-color: black;
+  --button-color: #f0f0f0;
+  --button-color1: #000000;
+  
+  --button-color3: blue;
+  --button-bg-color: #131836;
+  --button-bg-color1: #FFFFFF;
+  --button-hover-color: #E27447;
+  --button-hover-color1: #131836;
+   
+}
+
+.bg-homepage-bg {
+  background-color: var(--bg-color);
+}
+
+.text-homepage-heading {
+  color: var(--heading-color);
+}
+.text-homepage-heading1 {
+  color: var(--heading-color1);
+}
+
+.text-homepage-text {
+  color: var(--text-color);
+}
+.text-homepage-button-color {
+  color: var(--button-color);
+ 
+}
+.text-homepage-button-color2 {
+  color: var(--button-color1);
+}
+.text-homepage-button-color2:hover {
+  color: var(--button-hover-color);
+}
+
+.bg-homepage-button-bg-color{
+  background-color: var(--button-bg-color);
+}
+.bg-homepage-button-bg-color:hover {
+  background-color: var(--button-hover-color);
+}
+
+.bg-homepage-button-bg-color1{
+  background-color: var(--button-bg-color1);
+}
+.bg-homepage-button-bg-color1:hover {
+  background-color: var(--button-bg-color);
+  color: var(--button-color);
+}
+
+.text-homepage-button-color1 {
+  color: var(--button-color1);
+}
+
+.bg-course-bred-crumb-bg-color{
+  background-color: var(--bg-color-crumb);
+}
