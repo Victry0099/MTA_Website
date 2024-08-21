@@ -17,7 +17,7 @@ const About = () => {
       <AboutPageCard2 />
       <AboutPageCard3 />
       {/* <ClientCarousel bgColor={"bg-orange-100"} /> */}
-      <NewCarousel bgColor={"bg-orange-100"} />
+      <NewCarousel bgColor={"bg-white"} />
       <AboutPageCard4 />
     </>
   );
