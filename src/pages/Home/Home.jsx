@@ -9,6 +9,8 @@ import MtaTrainer from "../../components/MtaTrainer/MtaTrainer";
 import ClientCarousel from "../../shared/ClientCarousel/ClientCarousel";
 import Blog from "../../components/Blog/Blog";
 import InstructorCard from "../../components/InstructorCard/InstructorCard";
+import OurAlumniWork from "../../components/ourAlumniWork/OurAlumniWork";
+import NewCarousel from "../../shared/newCarousel/newCarousel";
 
 const Home = () => {
   return (
@@ -18,9 +20,11 @@ const Home = () => {
       <HeroPageCourseCarousel />
       <WhyJoin />
       <MtaInfo />
-      <ClientCarousel bgColor={"bg-white"} />
+      {/* <ClientCarousel bgColor={"bg-white"} /> */}
+      <NewCarousel bgColor={"bg-white"} />
       <HeroPageCard3 />
       {/* <MtaTrainer /> */}
+      <OurAlumniWork />
       <InstructorCard />
       {/* <Blog /> */}
     </>

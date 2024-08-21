@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style/styles.css";
+const Skeleton = lazy(() => import("./shared/skeleton/Skeleton"));
 const PrivacyPolicy = lazy(() =>
   import("./components/privacyPolicy/PrivacyPolicy")
 );
@@ -36,7 +37,7 @@ function App() {
   return (
     <>
       <Router>
-        <Suspense fallback={<div>Loading...</div>}>
+        <Suspense fallback={<Skeleton />}>
           <DynamicTitle />
           <Navbar />
           <PopupForm />

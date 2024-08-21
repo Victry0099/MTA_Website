@@ -41,7 +41,7 @@ function Registration() {
   return (
     <>
       <Breadcrumb text="Student Registration" />
-      <div className="form-main border-2 lg:w-2/6 md:w-4/5 m-auto px-6 py-10 my-20 md:mx-auto mx-10 rounded-md">
+      <div className="form-main border-2 lg:w-2/6 md:w-4/5 m-auto px-6 py-10 my-20  md:mx-auto mx-10  rounded-md">
         <form onSubmit={handleSubmit}>
           <label>Name</label>
           <input
@@ -50,7 +50,7 @@ function Registration() {
             onChange={handleInputChange}
             required
             autoFocus
-            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
+            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-1 md:py-3  pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
             placeholder="Full Name"
             type="text"
           />
@@ -61,7 +61,7 @@ function Registration() {
             value={email}
             onChange={handleInputChange}
             required
-            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
+            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-1 md:py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
             placeholder="E-mail"
             type="text"
           />
@@ -72,7 +72,7 @@ function Registration() {
             value={number}
             onChange={handleInputChange}
             required
-            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
+            className="placeholder placeholder:text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-1 md:py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
             placeholder="Number"
             type="text"
           />
@@ -83,7 +83,7 @@ function Registration() {
             value={courses}
             onChange={handleInputChange}
             required
-            className="placeholder text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
+            className="placeholder text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-1 md:py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
           >
             <option value="">Courses</option>
             <option value="Full Stack With Java">Full Stack With Java </option>
@@ -101,7 +101,7 @@ function Registration() {
             value={trainingMode}
             onChange={handleInputChange}
             required
-            className="placeholder text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
+            className="placeholder text-slate-400 block bg-white w-full border border-slate-300 rounded-sm py-1 md:py-3 pl-4 pr-3 shadow-sm focus:outline-none sm:text-sm my-3"
           >
             <option value="">Training Mode</option>
             <option value="Online Mode">Online Mode</option>

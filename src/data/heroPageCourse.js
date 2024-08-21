@@ -4,7 +4,7 @@ export const course = [
     image: "images/fsd_Python.png",
     lesson: "15 Lessons",
     hour: "120 Hours",
-    title: "Full Stack Web Developer In Python",
+    title: "Full Stack Developer In Python",
     star: "5",
     student_rate: "2",
     trainer_name: "Shivani",

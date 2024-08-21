@@ -11,8 +11,8 @@ const Navbar = () => {
 
   const linkClasses = ({ isActive }) =>
     isActive
-      ? "text-orange-500 hover:text-green-500"
-      : "text-slate-800 hover:text-green-500";
+      ? "text-orange-500 hover:text-orange-500"
+      : "text-slate-800 hover:text-orange-500";
 
   return (
     <header className="sticky top-0 z-50">

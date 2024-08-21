@@ -6,6 +6,7 @@ import AboutPageCard2 from "../../components/AboutPageCard2/AboutPageCard2";
 import AboutPageCard3 from "../../components/AboutPageCard3/AboutPageCard3";
 import ClientCarousel from "../../shared/ClientCarousel/ClientCarousel";
 import AboutPageCard4 from "../../components/AboutPageCard4/AboutPageCard4";
+import NewCarousel from "../../shared/newCarousel/newCarousel";
 const About = () => {
   return (
     <>
@@ -15,7 +16,8 @@ const About = () => {
       <WhyJoin />
       <AboutPageCard2 />
       <AboutPageCard3 />
-      <ClientCarousel bgColor={"bg-orange-100"} />
+      {/* <ClientCarousel bgColor={"bg-orange-100"} /> */}
+      <NewCarousel bgColor={"bg-orange-100"} />
       <AboutPageCard4 />
     </>
   );

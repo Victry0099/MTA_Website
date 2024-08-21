@@ -5,7 +5,7 @@ import { GoArrowUpRight } from "react-icons/go";
 import { Link } from "react-router-dom";
 const HeroPageCard3 = () => {
   return (
-    <section>
+    <section className="my-4">
       <div className="p-4 w-full max-w-screen-2xl mx-auto">
         <div className="bg-blue-100 shadow-md rounded-lg overflow-hidden grid grid-cols-1 md:grid-cols-2 md:mx-0 lg:mx-10 gap-2">
           {/* Content Section */}
