@@ -28,13 +28,11 @@ const Footer = () => {
               <ul className="text-slate-800 mt-8">
                 <li className="flex my-2">
                   <IoIosCall className="text-2xl mr-2 text-slate-800" />
-                  <p>+91-987543234</p>
+                  <p>+91-9315636357</p>
                 </li>
                 <li className="flex my-2">
                   <MdOutgoingMail className="text-2xl mr-2 text-slate-800" />
-                  <Link to="mailto:anilk.mtaindia@mail.com">
-                    anilk.mtaindia@mail.com
-                  </Link>
+                  <Link to="mailto:hello@mtaindia.org">hello@mtaindia.org</Link>
                 </li>
                 <li className="flex my-2">
                   <FaGlobeAmericas className="text-xl mr-2 text-slate-800" />
