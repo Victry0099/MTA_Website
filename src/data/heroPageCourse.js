@@ -37,7 +37,7 @@ export const course = [
   },
   {
     id: 4,
-    image: "images/reactjs.png",
+    image: "images/frontendwithreact.png",
     lesson: "8 Lessons",
     hour: "45 Hours",
     title: "Frontend With React.js",

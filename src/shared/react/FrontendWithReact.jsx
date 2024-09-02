@@ -64,7 +64,7 @@ const FrontendWithReact = () => {
             <h3 className="mt-4 mb-4 mt-8 text-2xl">Program Overview</h3>
 
             <ul className="list-disc pl-5 space-y-2 text-slate-950">
-              <li>100% placement assistance program</li>
+              <li>Guaranteed 100% Placement Assistance Program</li>
               <li>Exclusive training from Industry experts</li>
               <li>Structured & industry related curriculum</li>
               <li>Comprehensive career support</li>
@@ -99,7 +99,7 @@ const FrontendWithReact = () => {
               <li>Certification training program</li>
 
               <li>Online / Offline training</li>
-              <li>100% placement assistance</li>
+              <li>Guaranteed 100% Placement Assistance Program</li>
               <li>Internship opportunity</li>
             </ul>
 

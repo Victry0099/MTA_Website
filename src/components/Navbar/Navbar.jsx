@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { FiMenu, FiX } from "react-icons/fi";
 
 const Navbar = () => {
@@ -18,11 +18,14 @@ const Navbar = () => {
     <header className="sticky top-0 z-50">
       <nav className="bg-white p-4 border-b-2 border-b-slate-200">
         <div className="container mx-auto flex justify-between items-center lg:justify-around md:justify-between">
-          <div className="text-[#E27447] font-semibold text-2xl font-sans tracking-wide">
-            <p>MTA-INDIA</p>
-            <p className="text-black font-normal text-xs font-sans">
-              We Make IT Professional
-            </p>
+          <div className="text-[#E27447] font-semibold text-3xl font-sans tracking-wide">
+            <Link to="/" className="">
+              <img
+                src="/images/newMtaLogo.png"
+                alt="Website Logo"
+                className="w-30 h-10 sm:w-30 sm:h-10 md:w-40 md:h-14"
+              />
+            </Link>
           </div>
           <div className="hidden md:flex space-x-4 text-lg ">
             <NavLink

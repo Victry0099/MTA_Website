@@ -52,7 +52,7 @@ const PopupForm = () => {
     if (!popupShown) {
       const timer = setTimeout(() => {
         setShowPopup(true);
-      }, 3000);
+      }, 4000);
 
       return () => clearTimeout(timer);
     }

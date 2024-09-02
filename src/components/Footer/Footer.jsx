@@ -19,10 +19,13 @@ const Footer = () => {
           <div className="grid grid-cols-1 gap-6 md:grid-cols-3 lg:grid-cols-5 md:place-items-center">
             <div className="w-full h-full md:flex md:flex-col md:items-center">
               <div className="text-homepage-heading1 font-semibold text-2xl font-sans tracking-wide">
-                <p>MTA-INDIA</p>
-                <p className="text-black font-normal text-xs font-sans">
-                  We Make IT Professional
-                </p>
+                <Link to="/" className="">
+                  <img
+                    src="/images/newMtaLogo.png"
+                    alt="Website Logo"
+                    className="w-30 h-10 sm:w-30 sm:h-10 md:w-40 md:h-14"
+                  />
+                </Link>
               </div>
 
               <ul className="text-slate-800 mt-8">
