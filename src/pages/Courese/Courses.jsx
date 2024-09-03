@@ -11,7 +11,12 @@ function Courses() {
     <section className="w-full px-4 md:px-8">
       <div className="course-main grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center py-10 gap-4">
         {course?.map((element, index) => (
-          <div key={index} className=" bg-white rounded-lg shadow-md">
+          <Link
+            to={element.link}
+            target="_blank"
+            key={index}
+            className=" bg-white rounded-lg shadow-md"
+          >
             <img
               src={element.image}
               className="rounded-md object-center w-full h-52 border-b-2 border-b-red-100"
@@ -62,7 +67,7 @@ function Courses() {
                 </div>
               </Link>
             </div>
-          </div>
+          </Link>
         ))}
       </div>
     </section>
