@@ -44,7 +44,7 @@ export const course = [
     star: "5",
     student_rate: "2",
     trainer_name: "Prakash",
-    course_price: "Rs 4999",
+    course_price: "",
     link: "/courses/react",
   },
   // {
