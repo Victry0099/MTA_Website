@@ -8,6 +8,7 @@ import Button from "../../shared/Button/Button";
 import { GoArrowUpRight } from "react-icons/go";
 import { course } from "../../data/heroPageCourse";
 import { motion } from "framer-motion";
+import { Link } from "react-router-dom";
 
 const responsive = {
   superLargeDesktop: {
@@ -73,8 +74,8 @@ const HeroPageCourseCarousel = () => {
               animate="visible"
               variants={variants}
             >
-              <a
-                href={item.link}
+              <Link
+                to={item.link}
                 className="block relative flex flex-col shadow-lg rounded-lg overflow-hidden w-full"
               >
                 <div className="w-full flex justify-center items-center bg-green-200">
@@ -135,7 +136,7 @@ const HeroPageCourseCarousel = () => {
                     <GoArrowUpRight className="h-4 w-4 text-slate-600" />
                   </div>
                 </div>
-              </a>
+              </Link>
             </motion.div>
           ))}
         </Carousel>

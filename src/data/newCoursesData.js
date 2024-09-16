@@ -1,4 +1,4 @@
-export const course = [
+export const onlyCoursesData = [
   {
     id: 1,
     image: "images/fsd_Python.png",
@@ -46,5 +46,17 @@ export const course = [
     trainer_name: "Prakash",
     course_price: "",
     link: "/courses/react",
+  },
+  {
+    id: 5,
+    image: "images/newDevReact.png",
+    lesson: "8 Lessons",
+    hour: "45 Hours",
+    title: "Development With React.js",
+    star: "5",
+    student_rate: "2",
+    trainer_name: "Prakash",
+    course_price: "",
+    link: "/courses/development-react",
   },
 ];

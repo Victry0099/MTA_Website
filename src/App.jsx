@@ -1,6 +1,7 @@
 import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./style/styles.css";
+
 const Skeleton = lazy(() => import("./shared/skeleton/Skeleton"));
 const PrivacyPolicy = lazy(() =>
   import("./components/privacyPolicy/PrivacyPolicy")
@@ -19,6 +20,9 @@ const FrontendWithReact = lazy(() =>
 );
 
 const Certificate = lazy(() => import("./pages/certificate/Certificate"));
+const DevelopmentwithReact = lazy(() =>
+  import("./shared/react/DevelopmentwithReact")
+);
 const FullStackWithJava = lazy(() => import("./shared/java/FullStackWithJava"));
 const Mern = lazy(() => import("./shared/mern/Mern"));
 const PopupForm = lazy(() => import("./shared/PopupForm/PopupForm"));
@@ -64,6 +68,11 @@ function App() {
               exact
               path="/courses/react"
               element={<FrontendWithReact />}
+            />
+            <Route
+              exact
+              path="/courses/development-react"
+              element={<DevelopmentwithReact />}
             />
             <Route path="/terms-conditions" element={<TermsAndConditions />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />

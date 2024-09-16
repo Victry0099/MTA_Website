@@ -21,9 +21,9 @@ const Footer = () => {
               <div className="text-homepage-heading1 font-semibold text-2xl font-sans tracking-wide">
                 <Link to="/" className="">
                   <img
-                    src="/images/newMtaLogo.png"
+                    src="/images/newLogoimg.jpeg"
                     alt="Website Logo"
-                    className="w-30 h-10 sm:w-30 sm:h-10 md:w-40 md:h-14"
+                    className="w-30 h-10 sm:w-30 sm:h-10 md:w-40 md:h-10"
                   />
                 </Link>
               </div>

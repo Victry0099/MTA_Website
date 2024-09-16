@@ -4,13 +4,14 @@ import { IoMdStar } from "react-icons/io";
 import { MdOutlinePlayLesson } from "react-icons/md";
 import { TbClockHour5 } from "react-icons/tb";
 import { GoArrowUpRight } from "react-icons/go";
-import { course } from "../../data/heroPageCourse";
+
+import { onlyCoursesData } from "../../data/newCoursesData";
 
 function Courses() {
   return (
     <section className="w-full px-4 md:px-8">
       <div className="course-main grid xl:grid-cols-4 lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 justify-center py-10 gap-4">
-        {course?.map((element, index) => (
+        {onlyCoursesData?.map((element, index) => (
           <Link
             to={element.link}
             target="_blank"
